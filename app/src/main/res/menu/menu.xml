@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:id="@+id/menuOpciones"
+    >
+    <item
+        android:id="@+id/newStart"
+        app:showAsAction="never"
+        android:title="@string/empezar_de_nuevo"/>
+    <item
+        android:id="@+id/solve"
+        app:showAsAction="never"
+        android:title="@string/resoluci_n_autom_tica"/>
+</menu>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sudoku</string>
+    <string name="inicio_juego">Empezar a jugar</string>
+    <string name="acerca_de">ACERCA DE...</string>
+    <string name="salir">Salir</string>
+    <string name="sudoku">SUDOKU</string>
+    <string name="seleccione_la_dificultad_del_juego">Seleccione la dificultad del juego:</string>
+    <string name="facil">FACIL</string>
+    <string name="medio">MEDIO</string>
+    <string name="dificil">DIFICIL</string>
+    <string name="enhorabuena">Enhorabuena! Has resuelto el Sudoku!</string>
+    <string name="borrar_n_mero">Borrar número</string>
+    <string name="empezar_de_nuevo">Empezar de nuevo</string>
+    <string name="resoluci_n_autom_tica">Resolución automática</string>
+    <string name="acerca_de_contenido">Este programa ha sido desarrollado por un estudiante de Ingenieria del Software para aprender a crear aplicaciones para Android. Contacto: vjgarciag96@gmail.com</string>
+</resources>

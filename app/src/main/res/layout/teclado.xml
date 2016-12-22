@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/teclado"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:stretchColumns="*">
+   <TableRow>
+      <Button android:id="@+id/tecla1" android:text="1">
+      </Button>
+      <Button android:id="@+id/tecla2" android:text="2">
+      </Button>
+      <Button android:id="@+id/tecla3" android:text="3">
+      </Button>
+   </TableRow>
+   <TableRow>
+      <Button android:id="@+id/tecla4" android:text="4">
+      </Button>
+      <Button android:id="@+id/tecla5" android:text="5">
+      </Button>
+      <Button android:id="@+id/tecla6" android:text="6">
+      </Button>
+   </TableRow>
+   <TableRow>
+      <Button android:id="@+id/tecla7" android:text="7">
+      </Button>
+      <Button android:id="@+id/tecla8" android:text="8">
+      </Button>
+      <Button android:id="@+id/tecla9" android:text="9">
+      </Button>
+   </TableRow>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/borrar_n_mero"
+        android:id="@+id/teclaBorrar" />
+
+</TableLayout>

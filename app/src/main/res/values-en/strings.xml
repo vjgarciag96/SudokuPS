@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sudoku</string>
+    <string name="inicio_juego">Start Game</string>
+    <string name="acerca_de">About...</string>
+    <string name="salir">Quit</string>
+    <string name="sudoku">SUDOKU</string>
+    <string name="seleccione_la_dificultad_del_juego">Choose Difficulty:</string>
+    <string name="facil">EASY</string>
+    <string name="medio">MEDIUM</string>
+    <string name="dificil">HARD</string>
+    <string name="enhorabuena">Congratulations! You have solved the Sudoku!</string>
+    <string name="borrar_n_mero">Delete Number</string>
+    <string name="empezar_de_nuevo">Start Again</string>
+    <string name="resoluci_n_autom_tica">Automatic Resolution</string>
+    <string name="acerca_de_contenido">This aplication have been created by a Software Engineering student with the goal of learning to create Android applications. Email: vjgarciag96@gmail.com</string>
+</resources>

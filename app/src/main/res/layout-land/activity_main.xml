@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="16dp"
+    tools:context="vprog.sudokups.MainActivity"
+    android:background="#D1C4E9"
+    android:id="@+id/layout">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/inicio_juego"
+        android:id="@+id/button"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:width="250dp"
+        android:height="40dp"
+        android:onClick="selLV"
+        android:background="#FFC107"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:textColor="#ffffff" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/acerca_de"
+        android:id="@+id/button2"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:height="40dp"
+        android:width="250dp"
+        android:background="#FFC107"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:onClick="acercaDe"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/salir"
+        android:id="@+id/button3"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="190dp"
+        android:height="40dp"
+        android:width="250dp"
+        android:onClick="salir"
+        android:background="#FFC107"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sudoku"
+        android:id="@+id/textView2"
+        android:layout_margin="0dp"
+        android:textSize="50dp"
+        android:textColor="#512da8"
+        android:gravity="center"
+        android:textStyle="bold|italic" />
+
+</android.support.design.widget.CoordinatorLayout>

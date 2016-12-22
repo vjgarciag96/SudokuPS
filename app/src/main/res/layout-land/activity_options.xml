@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="vprog.sudokups.Options"
+    android:background="#D1C4E9">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/seleccione_la_dificultad_del_juego"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="12dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/facil"
+        android:id="@+id/button4"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:width="250dp"
+        android:height="50dp"
+        android:background="#FFC107"
+        android:textColor="#ffffff"
+        android:onClick="levelEasy" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/medio"
+        android:id="@+id/button5"
+        android:layout_below="@+id/button4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:width="250dp"
+        android:height="50dp"
+        android:background="#FFC107"
+        android:textColor="#ffffff"
+        android:onClick="levelMedium" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dificil"
+        android:id="@+id/button6"
+        android:layout_below="@+id/button5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:width="250dp"
+        android:height="50dp"
+        android:background="#FFC107"
+        android:textColor="#ffffff"
+        android:onClick="levelHard" />
+
+</RelativeLayout>
